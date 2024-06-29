@@ -9,6 +9,10 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -40,4 +44,29 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      composerPlaceholder: "Chat with Saheli",
+      botConversationDescription: "Bot Assistent",
+      botId: "711f4e47-56a8-474b-aeb0-ce5aa5b14229",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      messagingUrl: "https://messaging.botpress.cloud",
+      clientId: "711f4e47-56a8-474b-aeb0-ce5aa5b14229",
+      webhookId: "878933b9-419e-4fc8-8276-6518a01ebe93",
+      lazySocket: true,
+      themeName: "prism",
+      botName: "Saheli",
+      avatarUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKec91jzZYKCvVMxhOH0vkAXo-Li9-nd71A&s",
+      stylesheet:
+        "https://webchat-styler-css.botpress.app/prod/d8c6091a-203b-4ba5-ac32-591c21849423/v42493/style.css",
+      frontendVersion: "v1",
+      useSessionStorage: true,
+      enableConversationDeletion: true,
+      theme: "prism",
+      themeColor: "#2563eb",
+      allowedOrigins: [],
+    });
+  </script>
 </html>

@@ -1,0 +1,19 @@
+/* header.css */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  background: linear-gradient(to right, #fafafa, #ffffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.heading-text {
+  font-family: 'Pacifico', cursive;
+}
+
+
+.header{
+  background-color: black;
+}

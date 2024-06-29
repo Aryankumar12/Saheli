@@ -1,0 +1,33 @@
+
+
+/* Container for Home component */
+.home-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; */
+    flex-direction: column; /* Flex direction for responsiveness */
+    padding: 2rem;
+    height: 95vh;
+    
+   /* background: linear-gradient(); */
+   background-color: rgb(245, 157, 212);
+
+}
+.hero-img{
+    border: 3px soild black;
+  }
+
+  img {
+    /* outline: 10px solid rgb(0, 0, 0);
+    outline-offset: -4px; */
+    mix-blend-mode: multiply;
+  }
+  
+  
+
+.left-box{
+    border: 2px solid black;
+    padding: 2rem;
+    border-radius: 2rem;
+}
